@@ -9,8 +9,8 @@ def suma(s1,s2):
 def dividir(s1,s2):
     return str(s1/s2)
 
-@app.route('/restar/<int:s1>/<int:s2>',methods=['GET'])
-def restar(s1,s2):
+@app.route('/resta/<int:s1>/<int:s2>',methods=['GET'])
+def resta(s1,s2):
     return str(s1-s2)
 
 @app.route('/multiplicar/<int:s1>/<int:s2>',methods=['GET'])
