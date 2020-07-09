@@ -5,7 +5,7 @@ app = Flask(__name__)
 def suma(s1,s2):
     return str(s1+s2)
 
-@app.route('/divir/<int:s1>/<int:s2>',methods=['GET'])
+@app.route('/dividir/<int:s1>/<int:s2>',methods=['GET'])
 def dividir(s1,s2):
     return str(s1/s2)
 
