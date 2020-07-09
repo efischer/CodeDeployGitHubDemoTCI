@@ -13,5 +13,10 @@ def dividir(s1,s2):
 def restar(s1,s2):
     return str(s1-s2)
 
+@app.route('/multiplicar/<int:s1>/<int:s2>',methods=['GET'])
+def restar(s1,s2):
+    return str(s1*s2)
+
+
 if __name__ == '__main__':
     app.run()
