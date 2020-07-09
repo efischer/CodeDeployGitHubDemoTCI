@@ -15,11 +15,7 @@ def suma(s1,s2):
 def divide(s1,s2):
     return str(s1/s2)
 
-<<<<<<< HEAD
-@app.route('/restar/<int:s1>/<int:s2>',methods=['GET'])
-=======
 @app.route('/resta/<int:s1>/<int:s2>',methods=['GET'])
->>>>>>> f26ce908271924bd969e70a4e72dd9aaf6068b74
 def resta(s1,s2):
     return str(s1-s2)
 
