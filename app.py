@@ -6,7 +6,7 @@ def suma(s1,s2):
     return str(s1+s2)
 
 @app.route('/divir/<int:s1>/<int:s2>',methods=['GET'])
-def suma(s1,s2):
+def dividir(s1,s2):
     return str(s1/s2)
 
 if __name__ == '__main__':
