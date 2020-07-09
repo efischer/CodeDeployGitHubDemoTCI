@@ -10,15 +10,15 @@ def suma(s1,s2):
     return str(s1+s2)
 
 @app.route('/dividir/<int:s1>/<int:s2>',methods=['GET'])
-def dividir(s1,s2):
+def divide(s1,s2):
     return str(s1/s2)
 
 @app.route('/restar/<int:s1>/<int:s2>',methods=['GET'])
-def restar(s1,s2):
+def resta(s1,s2):
     return str(s1-s2)
 
 @app.route('/multiplicar/<int:s1>/<int:s2>',methods=['GET'])
-def restar(s1,s2):
+def multiplica(s1,s2):
     return str(s1*s2)
 
 
