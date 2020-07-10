@@ -27,5 +27,11 @@ def multiplica(s1,s2):
 def raiz(s1):
     return str(math.sqrt(s1))
 
+#Alfonso Opazo
+#Metodo que devuelve el coseno de un numero
+@app.route('/raiz/<int:s1>',methods=['GET'])
+def coseno(s1):
+    return str(math.cos(s1))
+
 if __name__ == '__main__':
     app.run()
