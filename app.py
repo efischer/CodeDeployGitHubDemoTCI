@@ -45,5 +45,11 @@ def pi():
 def logaritmo(s1):
     print('Logaritmo en base 10:')
     return str(math.log10(s1))
+
+##felipe ramirez
+##raiz cubica
+@app.route('/raizcubica/<int:s1>',methods=['GET'])
+def raizcubica(s1):
+    return str(s1**(1/3))    
 if __name__ == '__main__':
     app.run()
