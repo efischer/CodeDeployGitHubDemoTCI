@@ -3,9 +3,9 @@ import math
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/',methods=['GET'])
 def principal():
-	return "hola"
+	return "HOLA MUNDO"
 	
 @app.route('/suma/<int:s1>/<int:s2>',methods=['GET'])
 def suma(s1,s2):
