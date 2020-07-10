@@ -50,5 +50,20 @@ def coseno(s1):
 def logaritmo(s1):
     print('Logaritmo en base 10:')
     return str(math.log10(s1))
+
+<<<<<<< HEAD
+##felipe ramirez
+##raiz cubica
+@app.route('/raizcubica/<int:s1>',methods=['GET'])
+def raizcubica(s1):
+    return str(s1**(1/3))    
+=======
+#Ignacio Fajardo
+@app.route('/logaritmo2/<int:s1>',methods=['GET'])
+def logaritmo2(s1):
+    print('Logaritmo en base 2:')
+    return str(math.log2(s1))
+
+>>>>>>> 23c3b1a843039df7df1e0bf94577e7858c619252
 if __name__ == '__main__':
     app.run()
