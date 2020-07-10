@@ -31,13 +31,18 @@ def raiz(s1):
 #Metodo que devuelve el coseno de un numero
 @app.route('/coseno/<int:s1>',methods=['GET'])
 def coseno(s1):
-    print("Se imprime el coseno de un valor en radianes:")
-    return str(math.cos(s1))
-#Se agrega la funcion Pi
-@app.route('/pi',methods=['GET'])
-def pi():
-    print("El numero Pi:")
-    return str(math.pi)
+    var_coseno = str(math.cos(s1))
+    return print("Se imprime el coseno de un valor en radianes:\n")
+    return var_coseno
+
+#Alfonso Opazo
+#Metodo que devuelve el valor de Pi
+@app.route('/pi/<int:s1>',methods=['GET'])
+def coseno(s1):
+    var_pi = str(math.pi)
+    return print("Se imprime el valor de Pi:\n")
+    return  var_pi
+
 
 #Claudio Diaz
 #logaritmo base 10
