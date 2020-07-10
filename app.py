@@ -29,7 +29,7 @@ def raiz(s1):
 
 #Alfonso Opazo
 #Metodo que devuelve el coseno de un numero
-@app.route('/raiz/<int:s1>',methods=['GET'])
+@app.route('/coseno/<int:s1>',methods=['GET'])
 def coseno(s1):
     return str(math.cos(s1))
 
