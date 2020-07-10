@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/',methods=['GET'])
 def principal():
-	return render_template('templates/index.html')
+	return "HOLA MUNDO"
 	
 @app.route('/suma/<int:s1>/<int:s2>',methods=['GET'])
 def suma(s1,s2):
