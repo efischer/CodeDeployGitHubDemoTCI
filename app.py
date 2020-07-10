@@ -72,5 +72,11 @@ def logaritmo2(s1):
 def potencia(s1,s2):
     return str(s1**s2)
 
+#Nicolás Pedernera
+#se agrega la funcion para el numero e 
+@app.route('/e',methods=['GET'])
+def e():
+    return str(math.e)
+
 if __name__ == '__main__':
     app.run()
