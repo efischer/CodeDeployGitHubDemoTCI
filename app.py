@@ -65,5 +65,12 @@ def logaritmo2(s1):
     return str(math.log2(s1))
 
 >>>>>>> 23c3b1a843039df7df1e0bf94577e7858c619252
+
+#Ernesto Portugal
+#Potencia
+@app.route('/potencia/<int:s1>/<int:s2>',methods=['GET'])
+def potencia(s1,s2):
+    return str(s1**s2)
+
 if __name__ == '__main__':
     app.run()
