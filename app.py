@@ -39,5 +39,11 @@ def pi():
     print("El numero Pi:")
     return str(math.pi)
 
+#Claudio Diaz
+#logaritmo base 10
+@app.route('/logaritmo/<int:s1>',methods=['GET'])
+def logaritmo(s1):
+    print('Logaritmo en base 10:')
+    return str(math.log10(s1))
 if __name__ == '__main__':
     app.run()
