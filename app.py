@@ -38,7 +38,7 @@ def coseno(s1):
 #Alfonso Opazo
 #Metodo que devuelve el valor de Pi
 @app.route('/pi/<int:s1>',methods=['GET'])
-def coseno(s1):
+def pi():
     var_pi = str(math.pi)
     return print("Se imprime el valor de Pi:\n")
     return  var_pi
